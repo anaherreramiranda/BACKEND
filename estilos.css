@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(139, 0, 132);
+    margin-top: 100px;
+}
+
+.boton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(76, 0, 255);
+    background-color: aquamarine;
+}
+
+.tablas {
+    border-collapse: separate;
+    margin-top: 10px;
+    width: auto;
+    margin: 0 auto;
+}
+
+tr td,
+thead tr th {
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+
+#date td {
+    width: 20%;
+}
